@@ -1,0 +1,26 @@
+Operador lógico E
+
+entrada 1     entrada 2   saída
+
+V               V         Verdadeiro
+
+V               F          Falso
+
+F               V         Falso
+
+F               F         Falso
+
+
+
+Operador lógico OU
+*pelo menos 1 verdadeiro, será verdadeiro
+
+entrada 1     entrada 2   saída
+
+V               V         Verdadeiro
+
+V               F         Verdadeiro
+
+F               V         Verdadeiro
+
+F               F         Falso
