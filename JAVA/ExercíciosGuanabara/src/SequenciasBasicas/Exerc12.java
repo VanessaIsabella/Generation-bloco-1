@@ -10,7 +10,7 @@ salário de um funcionário, sabendo que ele trabalha 8 horas por dia e ganha R$
 por hora trabalhada*/
 		
 		Scanner leia = new Scanner(System.in);
-		String nome; //nome=funcionário
+		String nome; 
 		double salario=0;
 		int dias, horas=8, valorHora=25;
 		
@@ -19,15 +19,19 @@ por hora trabalhada*/
 		System.out.println("\nInforme o número de dias trabalhados :");
 		dias = leia.nextInt();
 		
+		salario=horas*valorHora;
+		salario=dias*salario;	
 		
-		
-		salario = horas*=valorHora;
-		
-		System.out.println("\nSe o funcionário " +nome+ " trabalha " +dias+ " dias, ele(a)ganha um salário de " +salario);
-		
+System.out.println("\nO/A funcionário(a) " +nome+ " trabalhou " +dias+ " dias. Ele(a) vai ganhar um salário de " +salario);
 
-		
-		
+/*String nome = "Ana"; 
+double salario= 5.770;
+String dias="22";
+System.out.printf("%s trabalhou %s dias e vai ganhar um salário de %d", nome, dias, salario);*/
 	}
-
 }
+	
+
+
+
+

@@ -11,15 +11,24 @@ já fumou. Considere que um fumante perde 10 min de vida a cada cigarro. Calcule
 quantos dias de vida um fumante perderá e exiba o total em dias.*/
 
 		Scanner leia = new Scanner(System.in);
-		int cigarros, diasdeVida=0;
+		int quantCigarro, minutos=0, horas=0, dias;
+		float anosFumando;
+				
+		
+	
 		
 		System.out.println("\nQuantos cigarros você fuma por dia? ");
-		cigarros = leia.nextInt();
+		quantCigarro = leia.nextInt();
 		
-		System.out.println("\nVocê tem " +diasdeVida+ " anos de vida");
+		System.out.println("\nQuantos anos você é fumante? ");
+		anosFumando = leia.nextInt();
 		
+		dias=(horas*24)+(minutos*60);
+	
 		
+		System.out.println("\nVocê reduziu " + dias + "dias de vida ");
 		
+	
 	}
 
 }
